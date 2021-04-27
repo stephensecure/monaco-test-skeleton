@@ -7,7 +7,7 @@ function App() {
     // Feel free to delete
     fetch("https://hacker-news.firebaseio.com/v0/item/8863.json")
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      // .then((data) => console.log(data));
   });
 
   return <div className="App">TODO: Monaco Solicitors React Coding Test</div>;
