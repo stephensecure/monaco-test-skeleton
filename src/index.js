@@ -1,7 +1,11 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import Reducer from './Reducer';
+// import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 import './index.css';
-import App from './App';
+import App from './router/AppRouter';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
