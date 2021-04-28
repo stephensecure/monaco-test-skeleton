@@ -9,6 +9,7 @@ const Link = ({ url, title }) => (
 const Story = ({ story: { id, by, title, kids, time, url } }) => {
   return (
     <div className="bg-gray-100 py-2 px-3">
+      <p> 1</p>
       <div className="font-semibold hover:text-primary">
         <Link url={url} title={title} />
       </div>

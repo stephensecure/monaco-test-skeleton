@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Story from './Story';
 import useDataFetcher from '../hooks/dataFetcher';
 
@@ -12,13 +12,13 @@ const ShowStories = (props) => {
         <p className="loading">Loading...</p>
       ) : (
         <React.Fragment>
-          {stories.map(({ data: story }) => (
+          {stories.map(({ data: story }) => (            
             <Story key={story.id} story={story} />
           ))}
         </React.Fragment>
       )}
     </React.Fragment>
-  );
-};
+  )
+}
 
 export default ShowStories;
